@@ -26,4 +26,4 @@ RUN npm install --unsafe-perm -g bitaccess/bitcore#fdfd31e47731e6fb6bedd72df0314
 
 ADD bitcore-node.json /root/.bitcore/
 EXPOSE 3000 18333
-ENTRYPOINT "/bin/bash"
+ENTRYPOINT "bitcored"
